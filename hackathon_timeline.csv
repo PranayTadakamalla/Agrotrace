@@ -1,0 +1,14 @@
+Hour,Activity,Focus,Deliverable
+0-1,Team Formation & Idea Validation,Problem Definition,Project Pitch
+1-3,Technical Architecture Design,System Design,Architecture Diagram
+3-5,Smart Contract Development,Core Blockchain Logic,Smart Contracts
+5-7,Backend API Development,Integration Layer,REST APIs
+7-9,Frontend UI Development,User Interface,React Components
+9-11,Blockchain Integration,Web3 Connection,Connected DApp
+11-13,Security Implementation,Authentication & Authorization,Secure Platform
+13-15,UI/UX Enhancement,User Experience,Polished Interface
+15-17,Testing & Bug Fixes,Quality Assurance,Stable Application
+17-19,Demo Preparation,Presentation Ready,Demo Script
+19-21,Documentation & Deployment,Production Ready,Deployed App
+21-23,Final Testing & Rehearsal,Presentation Prep,Pitch Deck
+23-24,Final Presentation,Demo & Judging,Live Demo

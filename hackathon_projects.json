@@ -1,0 +1,123 @@
+{
+  "agrotrace": {
+    "name": "AgroTrace",
+    "tagline": "Farm to Fork Transparency with Blockchain",
+    "problem_statement": "India loses \u20b91.52 trillion annually due to agricultural supply chain inefficiencies, food fraud, and lack of traceability",
+    "solution": "Blockchain-based platform tracking agricultural products from farm to consumer with IoT integration",
+    "target_users": [
+      "Farmers",
+      "Distributors",
+      "Retailers",
+      "Consumers",
+      "Government agencies"
+    ],
+    "key_features": [
+      "QR code-based product traceability",
+      "IoT sensor data recording",
+      "Smart contracts for automated payments",
+      "Real-time supply chain visibility",
+      "Counterfeit product detection",
+      "Carbon footprint tracking"
+    ],
+    "tech_stack": {
+      "frontend": {
+        "framework": "Next.js 14 with TypeScript",
+        "ui_library": "Chakra UI + Framer Motion",
+        "web3": "Web3-React v8 + Ethers.js v6",
+        "state": "Zustand with persist middleware",
+        "styling": "Tailwind CSS with custom design system"
+      },
+      "backend": {
+        "runtime": "Node.js with Express.js",
+        "database": "MongoDB with Mongoose ODM",
+        "authentication": "JWT + MetaMask wallet integration",
+        "api": "RESTful APIs with Swagger documentation",
+        "storage": "IPFS for decentralized file storage"
+      },
+      "blockchain": {
+        "network": "Polygon Mumbai Testnet",
+        "contracts": "Solidity 0.8.19",
+        "framework": "Hardhat development environment",
+        "testing": "Chai + Waffle test suite",
+        "libraries": "OpenZeppelin contracts for security"
+      },
+      "security": {
+        "contracts": "ReentrancyGuard, AccessControl, Pausable",
+        "frontend": "Content Security Policy, HTTPS enforcement",
+        "api": "Rate limiting, input validation, CORS",
+        "wallets": "Hardware wallet support (Ledger, Trezor)",
+        "audit": "Slither static analysis integration"
+      }
+    },
+    "mvp_scope": [
+      "Product registration smart contract",
+      "QR code generation and scanning",
+      "Basic supply chain tracking",
+      "Farmer and consumer dashboards",
+      "Mobile-responsive design"
+    ]
+  },
+  "educred": {
+    "name": "EduCred",
+    "tagline": "Tamper-Proof Digital Credentials for India",
+    "problem_statement": "Educational credential verification takes weeks, is prone to fraud, and lacks standardization across India's diverse education system",
+    "solution": "Blockchain-based platform for issuing, verifying, and managing educational credentials with instant verification",
+    "target_users": [
+      "Educational institutions",
+      "Students",
+      "Employers",
+      "Government bodies"
+    ],
+    "key_features": [
+      "Instant credential verification",
+      "Tamper-proof digital certificates",
+      "Bulk credential issuance",
+      "Mobile credential wallet",
+      "API for employer verification",
+      "Multi-language support"
+    ],
+    "tech_stack": {
+      "frontend": {
+        "framework": "React 18 with TypeScript",
+        "ui_library": "Ant Design + Custom components",
+        "web3": "Web3.js + MetaMask SDK",
+        "state": "Redux Toolkit with RTK Query",
+        "styling": "Styled-components with theme provider"
+      },
+      "backend": {
+        "runtime": "Node.js with Fastify",
+        "database": "PostgreSQL with Prisma ORM",
+        "authentication": "OAuth 2.0 + Multi-factor auth",
+        "api": "GraphQL with Apollo Server",
+        "storage": "IPFS + Arweave for permanent storage"
+      },
+      "blockchain": {
+        "network": "Ethereum Sepolia + Polygon",
+        "contracts": "Solidity 0.8.19",
+        "framework": "Foundry for development",
+        "testing": "Forge test suite",
+        "libraries": "OpenZeppelin ERC-721 for NFT credentials"
+      }
+    }
+  },
+  "healthchain": {
+    "name": "HealthChain",
+    "tagline": "Secure, Portable Medical Records for Every Indian",
+    "problem_statement": "Medical records are fragmented across hospitals, leading to repeated tests, delayed treatments, and privacy concerns",
+    "solution": "Patient-controlled blockchain-based medical record system with privacy-preserving features",
+    "target_users": [
+      "Patients",
+      "Doctors",
+      "Hospitals",
+      "Insurance companies"
+    ],
+    "key_features": [
+      "Patient-controlled data access",
+      "Interoperable medical records",
+      "Emergency access protocols",
+      "Insurance claim automation",
+      "Telemedicine integration",
+      "Privacy-preserving analytics"
+    ]
+  }
+}
