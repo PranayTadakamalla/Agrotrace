@@ -13,3 +13,7 @@ Immutable Records: Secure and tamper-proof documentation of every transaction us
 Role-Based Access: Farmers, transporters, and retailers interact with the system through permissioned roles (dummy smart contracts).
 
 Consumer Verification: QR code scanning allows consumers to verify the origin and journey of their food.
+
+
+Created By:
+Sai Pranay Tadakamalla
